@@ -6,11 +6,11 @@ import Login from './components/Login'
 import Profile from './components/Profile'
 
 function App() {
-  
+   
 
   return (
     <UserContextProvider>
-     <h1> Context API</h1>  
+     <h1  className='bg-gray'> <em>Hey!</em></h1>  
     <Login/>
     <Profile/>
     </UserContextProvider>
